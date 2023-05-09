@@ -1,16 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .App {
   text-align: center;
 }
+/* .bodimg {
+  background-image: url(./images/headerbg.png); */
+  /* width: 1912px; */
+/* } */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div[data-index="7"] {
+  width: 684px !;
+  height: 485px;
 }
-
+/* div[data-index="7"] img {
+  width: 684px;
+  height: 485px;
+} */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.hello {
+  background-image: url(./images/loginimg.png);
+}
+.hello1 {
+  background-image: url(./images/register.png);
+}
+
+.lady {
+  background-image: url(./images/lady.png);
+}
+.smilinglady {
+  background-image: url(./images/smilinglady.png);
 }
 
 .App-header {
@@ -23,16 +45,46 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.callses {
+  background-image: url(./images/callsession.png);
+}
+.grendot {
+  background-image: url(./images/greendot.png);
+}
+.smdot {
+  background-image: url(./images/greendot.png);
+}
+.clroom {
+  background-image: url(./images/classroom.png);
+}
+.grad {
+  background: linear-gradient(90deg, #136cb5 0%, #49bbbd 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.lb {
+  background-image: url(./images/ladyinblack.png);
+}
+.sg {
+  background-image: url(./images/studentgroup.png);
+}
 .App-link {
   color: #61dafb;
 }
+@font-face {
+  font-family: "Buenos Aires";
+  src: url("/src/assests/fonts/BuenosAires-Bold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

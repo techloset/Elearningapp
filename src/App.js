@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Loginpage from "./component/loginpage";
+import Registerpage from "./component/register";
+import Landingpage from "./component/landing";
+import Slider from "./component/slider";
+import Slider1 from "./component/slider";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Fourthbody from "./component/fourthbody";
+import FifthBody from "./component/fifthbody";
+import footer from "./component/footer";
+import Footer from "./component/footer";
+import Blog from "./component/blog";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Loginpage /> */}
+      {/* <Registerpage /> */}
+      <Landingpage />
+      {/* <Slider1 /> */}
+      {/* <Fourthbody />
+      <FifthBody />
+      <Footer /> */}
+      {/* <Blog/> */}
     </div>
   );
 }
