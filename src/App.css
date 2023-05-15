@@ -3,10 +3,18 @@
 .App {
   text-align: center;
 }
-/* .bodimg {
-  background-image: url(./images/headerbg.png); */
-  /* width: 1912px; */
-/* } */
+.ladyinblack{
+  background-image: url("../src/images/coursedetails/ladyinblack.png");
+} 
+.poster{
+  background-image: url("../src/images/coursedetails/background.png");
+}
+button.slick-arrow.slick-prev {
+  display: none !important ;
+}
+button.slick-arrow.slick-next {
+  display: none !important ;
+}
 
 div[data-index="7"] {
   width: 684px !;

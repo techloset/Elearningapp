@@ -10,6 +10,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         "nunito-sans": ["Nunito Sans", "sans-serif"],
         "buenos-aires": ["Buenos Aires", "serif"],
+         "iner":['Inter'],
         sans: ['Roboto', 'ui-sans-serif', 'system-ui'],
       },
     },

@@ -10,6 +10,8 @@ import Fourthbody from "./fourthbody";
 import FifthBody from "./fifthbody";
 import Footer from "./footer";
 import backgroundimage from "../../src/images/headerbg.png";
+import Membership from "./membership";
+import Course from "./course";
 const Landingpage = () => {
   return (
     <div className="">
@@ -122,10 +124,12 @@ const Landingpage = () => {
             </div>
           </div>
         </div> */}
-        <Secbody />
-        <Thirdbody />
-        <Fourthbody />
-        <FifthBody />
+        {/* <Secbody /> */}
+        {/* <Thirdbody /> */}
+        {/* <Fourthbody /> */}
+        {/* <FifthBody /> */}
+        {/* <Membership/> */}
+        <Course/>
         {/* <Footer /> */}
       </div>
     </div>

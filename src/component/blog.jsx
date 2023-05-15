@@ -23,7 +23,7 @@ const Blog = () => {
   return (
     <div>
       <Headerpage2 />
-      <div className="flex justify-center gap-[176px] mt-[127px]">
+      <div className="flex max-xl:flex-wrap justify-center gap-[176px] mt-[127px]">
         <div>
           <p className="font-poppins font-[700] text-[24px] leading-[36px] ">
             By Themadbrains in{" "}
@@ -48,12 +48,12 @@ const Blog = () => {
           <img className="w-[779px] h-[526.88px] " src={work} alt="" />
         </div>
       </div>
-      <div className="pt-[150px]">
+      <div className="pt-[150px] ml-[7.5%]  ">
         <p className="font-poppins font-[700] text-[30px] text-[#000000CC] opacity-[80%]  ">
           Reading blog list
         </p>
       </div>
-      <div className="flex justify-center gap-[76px] pt-[26px]">
+      <div className="flex max-lg:flex-wrap justify-center gap-[76px] pt-[26px]">
         <div className="">
           <div className="relative  ">
             <img src={ui} alt="" />
@@ -87,12 +87,12 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <div className="pt-[150px]">
+      <div className="pt-[150px] ml-[7.5%]">
         <p className="font-poppins font-[500] text-[30px] leading-[45px] opacity-[80%]">
           Related Blog{" "}
         </p>
       </div>
-      <div className="flex justify-center pt-[101px] gap-[132px]">
+      <div className="flex max-lg:flex-wrap justify-center pt-[101px] gap-[132px]">
         <div>
           <img src={ladyinblack} alt="" />
           <p className="font-poppins font-[500] text-[26px] leading-[46.8px] ">
@@ -172,12 +172,12 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className=" ml-[7.5%]">
         <p className="font-poppins font-[500] text-[30px] leading-[45px] ">
           Marketing Articles
         </p>
       </div>{" "}
-      <div className="flex justify-center gap-[88px] pt-[70px] ">
+      <div className="flex max-lg:flex-wrap justify-center gap-[88px] pt-[70px] ">
         <div>
           <div>
             <img src={kidtablet} alt="" />
