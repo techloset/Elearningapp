@@ -56,7 +56,7 @@ const Slider4 = () => {
   };
   return (
     <div>
-      <div className="max-sm:pt-10 w-[1920px] h-[1022px] relative bg-[#9DCCFF] bg-opacity-[0.2] pl-[147px]  ">
+      <div className="max-sm:pt-10 w-[100%] h-[1022px] relative bg-[#9DCCFF] bg-opacity-[0.2] pl-[147px]  ">
         <div className=" flex justify-between items-center pt-[50px] mr-[85px] ">
           <div>
             {" "}

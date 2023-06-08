@@ -39,7 +39,10 @@ const Blog = () => {
             adipiscing elit, sed do eiusmod tempor
           </p>
           <div>
-            <button className="font-poppins font-[700] text-[16px] leading-[24px] px-[40px] pt-[20px] pb-[12px] text-white bg-[#49BBBD] rounded-[12px] ">
+            <button
+              className="font-poppins font-[700] text-[16px] leading-[24px] px-[40px] pt-[20px] pb-[12px]
+             text-white bg-[#49BBBD] rounded-[12px] "
+            >
               Start learning now
             </button>
           </div>
@@ -57,7 +60,7 @@ const Blog = () => {
         <div className="">
           <div className="relative  ">
             <img src={ui} alt="" />
-            <button className="font-poppins font-[700] text-[24px] leading-[36px] rounded-[12px] px-[80px] py-[18px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
+            <button className="font-poppins font-[700] text-[24px] w-[236px] leading-[36px] rounded-[12px] px-[80px] py-[18px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
               UX/UI
             </button>
           </div>
@@ -65,7 +68,7 @@ const Blog = () => {
         <div>
           <div className="relative">
             <img src={reactimg} alt="" />
-            <button className="font-poppins font-[700] text-[24px] leading-[36px] rounded-[12px] px-[80px] py-[18px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
+            <button className="font-poppins font-[700] w-[236px] text-[24px] leading-[36px] rounded-[12px] px-[80px] py-[18px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
               React
             </button>
           </div>
@@ -73,7 +76,7 @@ const Blog = () => {
         <div>
           <div className="relative">
             <img src={phpimg} alt="" />
-            <button className="font-poppins font-[700] text-[24px] leading-[36px] rounded-[12px] px-[80px] py-[18px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
+            <button className="font-poppins font-[700] w-[236px] text-[24px] leading-[36px] rounded-[12px] px-[80px] py-[18px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
               PHP
             </button>
           </div>
@@ -81,7 +84,7 @@ const Blog = () => {
         <div>
           <div className="relative">
             <img src={javaimg} alt="" />
-            <button className="font-poppins font-[700] text-[24px] leading-[36px] rounded-[12px] px-[80px] py-[18px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
+            <button className="font-poppins max-2xl:w-[200px] max-zxl:tex-[18px] max-2xl:px-[20px] w-[236px] font-[700] text-[24px] leading-[36px] rounded-[12px] px-[40px] py-[16px] bg-white bg-opacity-[70%] text-[black] opacity-[80%] absolute left-[60px] bottom-[30px] ">
               JavaScript
             </button>
           </div>

@@ -9,7 +9,7 @@ const Secbody = () => {
           <p className="font-buenos-aires font-bold text-[48px] leading-[62.4px] text-center">
             Our Success
           </p>
-          <p className="font-[400px] text-[#010514CC] text-opacity-[80%]  text-[18px] leading-[28.8px] font-buenos-aires pt-[16px] max-md:text-center">
+          <p className="font-[400px] text-[#010514CC] text-opacity-[80%]  text-[18px] leading-[28.8px] max-sm:pl-[5%] font-buenos-aires pt-[16px] max-md:text-center">
             Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae
             sollicitudin at nec <br /> nam et pharetra gravida. Adipiscing a
             quis ultrices eu ornare tristique vel nisl orci.
@@ -17,81 +17,58 @@ const Secbody = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center pt-[101px] gap-[95px] max-xl:gap-[5px]  max-lg:ml-5  max-md:ml-[10%] max-sm:ml-[15%] ">
-        <div className=" max-sm:pt-5  flex flex-col justify-center items-center  ">
-          <p className="grad  font-buenos-aires font-[300] max-md:text-[40px]  max-sm:text-[30px]  text-[96px]  max-xl:pl-3 max-xl:text-[50px] max-xl:justify-between ">
-            15K+
+      <div className="flex flex-wrap px-[20px]  justify-center   items-center pt-[101px] gap-[95px]         ">
+        <div className=" flex flex-col   justify-center items-center">
+          <p className="grad  font-buenos-aires font-[300px]    text-[96px] leading-[96px] ">
+            15k
           </p>
-          <p className=" font-buenos-aires font-normal text-[32px] max-sm:leading-[20px] max-sm:text-[20px]  text-center max-xl:text-[20px]  max-md:pr-3  ">
+          <p className="  font-buenos-aires font-[400px]  text-[32px]  leading-[41.6px] text-center   ">
             Students
           </p>
         </div>
-        <div className=" flex flex-col justify-center items-center">
-          <p className="grad  font-buenos-aires font-[300px] max-md:text-[40px] max-sm:text-[30px] text-[96px] leading-[96px] max-xl:text-[50px]">
+        <div className=" flex flex-col   justify-center items-center">
+          <p className="grad  font-buenos-aires font-[300px]  text-[96px] leading-[96px] ">
             75%
           </p>
-          <p className="  font-buenos-aires font-[400px] text-[32px] max-sm:leading-[20px] max-sm:text-[20px] leading-[41.6px] text-center max-xl:text-[20px]  ">
+          <p className="  font-buenos-aires font-[400px]  text-[32px]  leading-[41.6px] text-center   ">
             Total success
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <p className="grad  font-buenos-aires font-[300px] max-md:text-[40px] max-sm:text-[30px] text-[96px] leading-[96px] text-center max-xl:text-[50px]">
+          <p className="grad  font-buenos-aires font-[300px]  text-[96px] leading-[96px] text-center ">
             35
           </p>
-          <p className=" text-center font-buenos-aires font-[400px] max-sm:leading-[20px] max-sm:text-[20px] text-[32px] leading-[41.6px]  max-xl:text-[20px] ">
+          <p className=" text-center font-buenos-aires font-[400px] text-[32px] leading-[41.6px]   ">
             Main questions
           </p>
         </div>
 
         <div className="flex flex-col justify-center items-center">
-          <p className="grad  font-buenos-aires font-[300px] max-md:text-[40px] max-sm:text-[30px] text-[96px] leading-[96px] text-center max-xl:text-[50px]">
+          <p className="grad  font-buenos-aires font-[300px]  text-[96px] leading-[96px] text-center  ">
             26
           </p>
-          <p className=" text-center font-buenos-aires font-[400px] text-[32px] max-sm:leading-[20px] max-sm:text-[20px] leading-[41.6px] max-xl:text-[20px]  ">
+          <p className=" text-center font-buenos-aires font-[400px] text-[32px]  leading-[41.6px]   ">
             Cheif experts
           </p>
         </div>
 
         <div className="flex flex-col justify-center items-center">
-          <p className="grad  font-buenos-aires font-[300px] max-md:text-[40px] max-sm:text-[30px] text-[96px] leading-[96px] text-center max-xl:text-[50px] ">
+          <p className="grad  font-buenos-aires font-[300px]  text-[96px] leading-[96px] text-center  ">
             16
           </p>
-          <p className=" text-center  font-buenos-aires font-[400px] max-sm:leading-[20px] max-sm:text-[20px] text-[32px] leading-[41.6px] max-xl:text-[20px]  ">
+          <p className=" text-center  font-buenos-aires font-[400px] text-[32px] leading-[41.6px]   ">
             years of experience
           </p>
         </div>
       </div>
 
-      {/* <div className="flex gap-[95px] justify-center ">
-        <div>
-          <p>15K</p>
-          <p>Students</p>
-        </div>
-        <div>
-          <p>15K</p>
-          <p>Total success</p>
-        </div>
-        <div>
-          <p>15K</p>
-          <p>Main questions</p>
-        </div>
-        <div>
-          <p>15K</p>
-          <p>Chief experts</p>
-        </div>
-        <div>
-          <p>15K</p>
-          <p>Years of experience</p>
-        </div>
-      </div> */}
-
       <div className="flex justify-center text-center pt-[131px] max-lg:items-center ">
         <div>
-          <p className="font-poppins text-[#2F327D] font-[700px] text-[36px] leading-[64.8px] ">
+          <p className="font-poppins text-[#2F327D] font-[700px] text-[36px] leading-[64.8px] max-sm:text-[28px] max-sm:pl-[4%] ">
             All-In-One <span className="text-[#00CBB8]"> Cloud Software. </span>{" "}
           </p>
           <div>
-            <p className=" text-[#696984] font-poppins font-[400px] text-[24px] leading-[43.2px]   ">
+            <p className=" text-[#696984] font-poppins font-[400px] text-[24px] leading-[43.2px] max-sm:pl-[5%]  ">
               TOTC is one powerful online software suite that combines all the
               tools <br /> needed to run a successful school or office.
             </p>
@@ -99,15 +76,15 @@ const Secbody = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-[60px] pt-[140px] flex-wrap ">
-        <div className="w-[450px] flex  flex-col justify-center items-center   rounded-[20px] shadow-xl      ">
+      <div className="flex justify-center   gap-[60px] max-sm:pt-[70px] max-sm:pl-[10%]  pt-[140px] flex-wrap max-  ">
+        <div className="w-[450px]   flex  flex-col justify-center items-center   rounded-[20px] shadow-xl      ">
           {" "}
           <img className="      w-[100px] h-[100px]  " src={bill} alt="" />
-          <div>
-            <p className=" font-poppins font-medium text-[30px] leading-[36px] text-[#2F327D] text-center pt-[79px]  ">
+          <div className="">
+            <p className=" font-poppins font-medium text-[30px] leading-[36px] text-[#2F327D] text-center max-sm:pt-[30px] pt-[79px] max-sm:pl-[5%]  ">
               Online Billing, <br /> Invoicing, & Contracts
             </p>
-            <p className="text-[#696984] font-[400px] text-[20px] leading-[36px] pt-[24px] text-center  ">
+            <p className="text-[#696984] font-[400px] text-[20px] leading-[36px] pt-[24px] text-center  max-sm:pl-[5%] ">
               Simple and secure control of your <br /> organization’s financial
               and legal <br /> transactions. Send customized <br /> invoices and
               contracts
@@ -118,10 +95,10 @@ const Secbody = () => {
         <div className=" ">
           <div className="w-[450px] flex flex-col justify-center items-center    rounded-[20px] shadow-xl  ">
             <img className="   w-[100px] h-[100px] " src={grencal} alt="" />
-            <p className="font-poppins font-medium text-[30px] leading-[45px] pt-[79px] text-center text-[#2F327D]    ">
+            <p className="font-poppins font-medium text-[30px] leading-[45px] pt-[79px] text-center text-[#2F327D]  max-sm:pt-[30px]   max-sm:pl-[5%]  ">
               Easy Scheduling & Attendance Tracking
             </p>
-            <p className="font-poppins font-[400px] text-[20px] leading-[36px]  pt-[24px]  text-center text-[#696984]">
+            <p className="font-poppins font-[400px] text-[20px] leading-[36px]  pt-[24px]  text-center max-sm:pt-[30px]   max-sm:pl-[5%]  text-[#696984]">
               Schedule and reserve classrooms at <br /> one campus or multiple
               campuses. <br /> Keep detailed records of student <br />{" "}
               attendance
@@ -132,7 +109,7 @@ const Secbody = () => {
         <div>
           <div className=" flex flex-col rounded-[20px] shadow-xl w-[450px] justify-center items-center   ">
             <img className="" src={soc} width={100} height={100} alt="" />
-            <p className="font-poppins font-medium text-[30px] leading-[45px] text-[#2F327D] text-center pt-[106px] ">
+            <p className="font-poppins font-medium text-[30px] leading-[45px] text-[#2F327D] text-center max-sm:pt-[30px]   max-sm:pl-[5%]  pt-[106px] ">
               Customer Tracking
             </p>
             <p className="font-poppins font-[400px] text-[20px] leading-[36px] text-[#696984] pt-[42px] text-center">
@@ -154,7 +131,7 @@ const Secbody = () => {
           </p>
         </div>
         <div className="flex justify-center lg:w-[57.3%] sm:w-[80%] w-[90%] pt-[20px] text-center items-center">
-          <p className="sm:text-center text-left pl-[25px] font-poppins font-[400px] text-[24px] sm:leading-[43.2px]  text-[#696984]">
+          <p className="sm:text-center text-left pl-[25px] font-poppins font-[400px] text-[24px] sm:leading-[43.2px] max-sm:pt-[30px]   max-sm:pl-[5%]   text-[#696984]">
             TOTC is a platform that allows educators to create online classes
             whereby they can store the course materials online; manage
             assignments, quizzes and exams; monitor due dates; grade results and
@@ -164,7 +141,7 @@ const Secbody = () => {
       </div>
 
       <div className="flex flex-wrap justify-center gap-[100px] pt-[77px] ">
-        <div className="lb bg-contain w-[600px] h-[400px]  flex justify-center items-center ">
+        <div className="lb   bg-no-repeat  w-[600px] h-[400px]  flex justify-center items-center ">
           <div>
             <p className="font-poppins font-[600px] text-[32px] leading-[48px] text-white">
               FOR INSTRUCTORS

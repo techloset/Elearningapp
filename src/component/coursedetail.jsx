@@ -18,6 +18,7 @@ import sqbox from "../../src/images/foursquarebox.png";
 import linasm from "../../src/images/linasmall.png";
 import kid from "../../src/images/pressrelease.png";
 import Footer from "./footer";
+import backgroundimg from "../../src/images/coursedetails/background.png";
 
 const Coursedetail = () => {
   return (
@@ -25,35 +26,38 @@ const Coursedetail = () => {
       <div>
         <Headerpage2 />
       </div>
-      <div className="poster bg-no-repeat bg-contain w-[1920px] h-[652px]  "></div>
-      <div className="  flex justify-around ">
-        <div>
-          <div className="flex gap-[50px]">
-            <div>
-              <button className="bg-[#000000] bg-opacity-[10%] text-[#000000] rounded-[12px] px-[50px] py-[17px]">
+      {/* <div className="poster bg-no-repeat   sm:w-[100%] sm:h-[250px] md:h-[300px] lg:h-[400px] xl:h-[450px] 2xl:h-[652px]  "></div> */}
+      <div className="w-[100%]">
+        <img src={backgroundimg} className="w-[100%]" alt="" />
+      </div>
+      <div className="  flex ">
+        <div className="mt-[53px]   ">
+          <div className="flex flex-wrap justify-center  gap-[50px]">
+            <>
+              <button className="bg-[#000000] bg-opacity-[10%] text-[#000000] rounded-[12px] px-[20px] py-[10px]  sm:px-[50px] sm:py-[17px]">
                 Overview
               </button>
-            </div>
-            <div>
-              <button className="bg-[#000000] bg-opacity-[10%]  text-[#000000] rounded-[12px] px-[50px] py-[17px]">
+            </>
+            <>
+              <button className="bg-[#000000] bg-opacity-[10%]  text-[#000000] rounded-[12px] px-[20px] py-[10px]  sm:px-[50px] sm:py-[17px]">
                 Overview
               </button>
-            </div>
-            <div>
-              <button className="bg-[#000000] bg-opacity-[10%] text-[#000000] rounded-[12px] px-[50px] py-[17px]">
+            </>
+            <>
+              <button className="bg-[#000000] bg-opacity-[10%] text-[#000000] rounded-[12px] px-[20px] py-[10px]  sm:px-[50px] sm:py-[17px]">
                 Overview
               </button>
-            </div>
-            <div>
-              <button className="bg-[#49BBBD] text-white   rounded-[12px] px-[50px] py-[17px]">
+            </>
+            <>
+              <button className="bg-[#49BBBD] text-white   rounded-[12px] px-[20px] py-[10px]  sm:px-[50px] sm:py-[17px]">
                 Overview
               </button>
-            </div>
+            </>
           </div>
-          <div className="pt-[83px] ">
-            <div className="w-[950px] h-[764px] bg-[#9DCCFF4D] p-[50px]">
-              <div className="  flex gap-[46px] ">
-                <div className="w-[257px] h-[199px] bg-white rounded-[20px]">
+          <div className="   ">
+            <div className=" rounded-[20px]  w-[100%] bg-[#9DCCFF4D] sm:p-[50px]   ">
+              <div className="  flex flex-wrap justify-between max-sm:justify-around   ">
+                <div className=" h-[199px] bg-white rounded-[20px]">
                   <div className="p-[48px] flex flex-col gap-[18px] ">
                     <p className="font-poppins font-[600] text-[30px]  ">
                       4 out of 5
@@ -66,45 +70,45 @@ const Coursedetail = () => {
                   </div>
                 </div>
 
-                <div className="flex flex-col  gap-[12px]  ">
-                  <div className="flex items-center gap-[45px]">
+                <div className="flex   flex-wrap flex-col  gap-[12px]    ">
+                  <div className="flex flex-wrap items-center gap-[45px]">
                     <p className="text-[#00000080] tetx-[20px] leading-[30px]">
                       5 Star{" "}
                     </p>
-                    <div className="w-[432px] bg-[#D9D9D9] h-[8px]">
-                      <div className="w-[332px] bg-[#49BBBD] h-[8px] "></div>
+                    <div className="w-[83%] bg-[#D9D9D9] h-[8px]">
+                      <div className="w-[78%] bg-[#49BBBD] h-[8px] "></div>
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-[45px]">
+                  <div className="flex flex-wrap items-center gap-[45px]">
                     <p className="text-[#00000080] tetx-[20px] leading-[30px]">
                       4 Star{" "}
                     </p>
-                    <div className="w-[432px] bg-[#D9D9D9] h-[8px]">
-                      <div className="w-[332px] bg-[#49BBBD] h-[8px] "></div>
+                    <div className="w-[83%] bg-[#D9D9D9] h-[8px]">
+                      <div className="w-[78%] bg-[#49BBBD] h-[8px] "></div>
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-[45px]">
+                  <div className="flex flex-wrap items-center gap-[45px]">
                     <p className="text-[#00000080] tetx-[20px] leading-[30px]">
                       3 Star{" "}
                     </p>
-                    <div className="w-[432px] bg-[#D9D9D9] h-[8px]">
-                      <div className="w-[332px] bg-[#49BBBD] h-[8px] "></div>
+                    <div className="w-[83%] bg-[#D9D9D9] h-[8px]">
+                      <div className="w-[78%] bg-[#49BBBD] h-[8px] "></div>
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-[45px]">
-                    <p className="text-[#00000080] tetx-[20px] leading-[30px]">
+                  <div className="flex flex-wrap items-center gap-[45px]">
+                    <p className="text-[#00000080] tex-[20px] leading-[30px]">
                       2 Star{" "}
                     </p>
-                    <div className="w-[432px] bg-[#D9D9D9] h-[8px]">
-                      <div className="w-[332px] bg-[#49BBBD] h-[8px] "></div>
+                    <div className="w-[83%] bg-[#D9D9D9] h-[8px]">
+                      <div className="w-[78%] bg-[#49BBBD] h-[8px] "></div>
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-[45px]">
-                    <p className="text-[#00000080] tetx-[20px] leading-[30px]">
+                  <div className="flex flex-wrap items-center gap-[45px]">
+                    <p className="text-[#00000080] text-[20px] leading-[30px]">
                       1 Star{" "}
                     </p>
                     <div className="w-[432px] bg-[#D9D9D9] h-[8px]">
@@ -115,7 +119,7 @@ const Coursedetail = () => {
               </div>
 
               <div>
-                <div className="flex items-center justify-between pt-[81px] ">
+                <div className="flex items-center justify-between pt-[81px] max-sm:justify-around ">
                   <div className="flex">
                     <img src={lina} alt="" />
                     <div>
@@ -124,12 +128,12 @@ const Coursedetail = () => {
                     </div>
                   </div>
 
-                  <div className="flex gap-[10px] mr-[20px] ">
+                  <div className="flex max-sm:justify-around  flex-wrap gap-[10px] mr-[20px] ">
                     <img src={clock} alt="" />
                     <p>3 months</p>
                   </div>
                 </div>
-                <p className="font-poppins text-[20px] leading-[36px] text-[#696984] pt-[23px]">
+                <p className="font-poppins text-[20px] max-sm:text-[15px]  flex max-sm:justify-around  leading-[36px] text-[#696984] pt-[23px]">
                   Class, launched less than a year ago by Blackboard co-founder
                   Michael Chasen, integrates exclusively...
                 </p>
@@ -138,7 +142,7 @@ const Coursedetail = () => {
                 </div>{" "}
               </div>
               <div>
-                <div className="flex items-center justify-between pt-[81px] ">
+                <div className="flex items-center justify-between max-sm:justify-around  max-sm:items-center   pt-[81px] ">
                   <div className="flex">
                     <img src={lina} alt="" />
                     <div>
@@ -146,12 +150,12 @@ const Coursedetail = () => {
                     </div>
                   </div>
 
-                  <div className="flex gap-[10px] mr-[20px] ">
+                  <div className="flex gap-[10px]   mr-[20px] ">
                     <img src={clock} alt="" />
                     <p>3 months</p>
                   </div>
                 </div>
-                <p className="font-poppins text-[20px] leading-[36px] text-[#696984] pt-[23px]">
+                <p className="font-poppins text-[20px] leading-[36px] max-sm:text-[15px] flex max-sm:justify-around  text-[#696984] pt-[23px]">
                   Class, launched less than a year ago by Blackboard co-founder
                   Michael Chasen, integrates exclusively...
                 </p>
@@ -160,10 +164,10 @@ const Coursedetail = () => {
           </div>
         </div>
 
-        <div className="  mt-[-245px] bg-white p-[30px] rounded-[20px] ">
+        <div className=" max-xl:hidden  mt-[-245px] bg-white p-[30px] rounded-[20px] ">
           <div className="  ">
             <img src={smallheaderimg} alt="" />
-            <div className="flex items-center gap-[22px] ">
+            <div className="flex   items-center gap-[22px] ">
               <p className="font-poppins font-[600] text-[45px] leading-[67.5%] pt-[18px]">
                 $49.65
               </p>
@@ -251,14 +255,23 @@ const Coursedetail = () => {
         </div>
       </div>
 
-      <div className="bg-[#9DCCFF] bg-opacity-[0.2%] w-[1920px] h-[896px] ">
-        <div className="flex justify-center gap-[50px] pt-[50px] items-center bg-[#9DCCFF30]    w-[1920px] h-[896px]">
-          <div className="  !w-[374px] !h-[617px]  bg-[white]  rounded-[20px] text-center shadow-xl  ">
+      <div className=" bg-[#9DCCFF30] mt-[50px] bg-opacity-[0.2%]  w-[100%]   ">
+        <div className="flex flex-wrap justify-around gap-[50%] items-center pt-[92px]">
+          <p className="font-poppins font-[500] text-[30px] ">
+            Marketing Articles
+          </p>
+          <p className="font-poppins font-[700] text-[20px] text-[#49BBBD]">
+            See all
+          </p>
+        </div>
+        <div className="flex flex-wrap justify-center gap-[50px]   items-center    w-[100%]  ">
+          <div className="!w-[374px] sm:!w-[320px] !h-[617px]  bg-[white]  rounded-[20px] text-center shadow-xl">
             <div className="pl-[20px] pt-[20px]">
-              <div className="flex flex-col justify-center items-center">
+              <div className="flex   flex-col justify-center items-center">
                 <img className="  " src={kid} alt="" />
               </div>
-              <div className="flex justify-around gap-[139px] items-center pt-[20px]">
+
+              <div className="flex   justify-around gap-[139px] items-center pt-[20px]">
                 <div className="flex gap-[10px] ">
                   <img src={sqbox} alt="" />
                   <div>
@@ -302,7 +315,7 @@ const Coursedetail = () => {
               </div>
             </div>
           </div>
-          <div className="  !w-[374px] !h-[617px]  bg-[white]  rounded-[20px] text-center shadow-xl   ">
+          <div className="  !w-[374px] !h-[617px]  bg-[white]  rounded-[20px] text-center shadow-xl">
             <div className="pl-[20px] pt-[20px]">
               <div className="flex flex-col justify-center items-center">
                 <img className="  " src={kid} alt="" />
@@ -452,7 +465,7 @@ const Coursedetail = () => {
           </div>
         </div>
       </div>
-      <div className="flex max-xl:flex-wrap justify-center   max-xl:ml-[90px] gap-[67px] items-center   ">
+      <div className="flex max-xl:flex-wrap justify-center   max-xl:ml-[90px] gap-[67px] items-center pt-[30px]   ">
         <div className="w-[700px]">
           <div className="w-[73px] h-[73px] bg-[#33EFA0] rounded-full absolute  "></div>
           <div>
@@ -479,27 +492,27 @@ const Coursedetail = () => {
         </div>
       </div>
       <div className="pt-[223px]">
-        <div className="flex justify-between">
-          <p className="font-poppins font-[500] text-[30px] ml-[190px] ">
+        <div className="flex  items-center justify-between ">
+          <p className="font-poppins font-[500] text-[30px]  ml-[8%]  max-lg:text-[25px]">
             Top Education offers and deals are listed here
           </p>
-          <p className="font-poppins font-[700] text-[20px] text-[#49BBBD] mr-[230px]">
+          <p className="font-poppins font-[700] text-[20px] text-[#49BBBD]  mr-[8%] max-lg:hidden ">
             See all
           </p>
         </div>
       </div>
 
-      <div className=" flex justify-center gap-[70px] pt-[60px] ">
-        <div className="ladyinblack w-[506px] h-[477px] rounded-[20px] flex flex-col justify-center pl-[50px] gap-[30px] ">
+      <div className=" flex flex-wrap justify-center gap-[70px] pt-[60px] ">
+        <div className="ladyinblack bg-cover bg-no-repeat w-[506px] max-sm:w-[90%] h-[477px] max-sm:h-[400px] rounded-[20px] flex flex-col justify-center pl-[50px] gap-[30px] ">
           <div className="w-[100px] h-[100px] rounded-[12px] bg-[#FF000099] font-poppins font-[700] text-[24px] text-white py-[35px] px-[20px] ">
             {" "}
             50%
           </div>
           <div>
-            <p className="font-poppins font-[600] text-[32px] text-white ">
+            <p className="font-poppins font-[600] text-[32px] text-white max-sm:text-[25px]">
               FOR INSTRUCTORS
             </p>
-            <p className="font-poppins text-[24px]  leading-[43px] text-white">
+            <p className="font-poppins text-[24px] max-sm:text-[20px] leading-[43px] text-white">
               TOTC’s school management software helps traditional and online
               schools manage scheduling,
             </p>
@@ -511,10 +524,10 @@ const Coursedetail = () => {
             50%
           </div>
           <div>
-            <p className="font-poppins font-[600] text-[32px] text-white ">
+            <p className="font-poppins font-[600] text-[32px] text-white  max-sm:text-[25px]">
               FOR INSTRUCTORS
             </p>
-            <p className="font-poppins text-[24px]  leading-[43px] text-white">
+            <p className="font-poppins text-[24px]  leading-[43px] text-white  max-sm:text-[20px]">
               TOTC’s school management software helps traditional and online
               schools manage scheduling,
             </p>
@@ -526,10 +539,10 @@ const Coursedetail = () => {
             50%
           </div>
           <div>
-            <p className="font-poppins font-[600] text-[32px] text-white ">
+            <p className="font-poppins font-[600] text-[32px] text-white  max-sm:text-[25px] ">
               FOR INSTRUCTORS
             </p>
-            <p className="font-poppins text-[24px]  leading-[43px] text-white">
+            <p className="font-poppins text-[24px]  max-sm:text-[20px]  leading-[43px] text-white">
               TOTC’s school management software helps traditional and online
               schools manage scheduling,
             </p>

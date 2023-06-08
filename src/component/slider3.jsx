@@ -29,35 +29,35 @@ const Slider3 = () => {
           dots: false,
         },
       },
-      {
-        breakpoint: 1513,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: false,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 500,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+      // {
+      //   breakpoint: 1513,
+      //   settings: {
+      //     slidesToShow: 3,
+      //     slidesToScroll: 3,
+      //     infinite: true,
+      //     dots: false,
+      //   },
+      // },
+      // {
+      //   breakpoint: 768,
+      //   settings: {
+      //     slidesToShow: 2,
+      //     slidesToScroll: 1,
+      //   },
+      // },
+      // {
+      //   breakpoint: 500,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //   },
+      // },
     ],
   };
   return (
     <div>
-      <div className="max-sm:pt-10 w-[1920px] relative bg-[#9DCCFF] bg-opacity-[0.2] pl-[147px]  ">
-        <div className=" flex justify-between items-center pt-[50px] mr-[85px] ">
+      <div className="max-sm:pt-10  relative bg-[#9DCCFF] bg-opacity-[0.2] pl-[147px]  ">
+        <div className=" flex flex-wrap justify-between items-center pt-[50px] mr-[85px] ">
           <div>
             {" "}
             <p className="font-poppins font-[600] text-[36px] leading-[54px] text-[#2D3436]  ">
@@ -71,7 +71,7 @@ const Slider3 = () => {
           </div>
         </div>
         <Slider className="pt-[50px]" ref={slider} {...settings}>
-          <div className="  !w-[529px] !h-[474px] bg-[white]  rounded-[20px] text-center  ">
+          <div className="  !w-[529px] !h-[474px] bg-[white]  rounded-[20px] text-center !mr-[25px]  ">
             <div className="pl-[20px] pt-[20px]">
               <div className="flex flex-col justify-center items-center">
                 <img className="  " src={img1} alt="" />

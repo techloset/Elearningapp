@@ -15,7 +15,7 @@ const FifthBody = () => {
       </div>
 
       <div className="flex max-xl:flex-wrap justify-center gap-[120px] pt-[100px]   ">
-        <div className="   ">
+        <div className="  flex  flex-col items-center justify-center  ">
           <img src={work} alt="" />
 
           <div className="w-[130px] h-[40px] rounded-[80px] bg-[#49BBBD] my-[42px] ">
@@ -24,8 +24,8 @@ const FifthBody = () => {
               NEWS
             </button>{" "}
           </div>
-          <div className="w-[609px]">
-            <p className="font-poppins font-[500px] text-[26px] leading-[46.8px] text-[#252641]  ">
+          <div className="w-[609px] max-sm:w-[390px] flex flex-col  text-end items-center ">
+            <p className="font-poppins font-[500px] text-[26px] leading-[46.8px] text-[#252641] max-sm:text-[18px] ">
               Class adds $30 million to its balance sheet for a Zoom-friendly
               edtech solution
             </p>
@@ -40,21 +40,21 @@ const FifthBody = () => {
           </div>
         </div>
 
-        <div className="flex flex-col  justify-start gap-[50px]">
-          <div className="flex items-center max-xl:flex-wrap  gap-[25px]     ">
+        <div className="flex flex-col  justify-start gap-[50px]  ">
+          <div className="flex items-center max-xl:flex-wrap  gap-[25px]   max-sm:justify-center   max-sm:pl-[12%]  ">
             <img src={pr} alt="" />
             <div className="  ">
-              <p className="font-poppins font-[500] text-[22px] leading-[39.6px] text-[#252641] ">
+              <p className="font-poppins font-[500] flex justify-center items-center  text-[22px] leading-[39.6px] text-[#252641] ">
                 Class Technologies Inc. Closes $30 Million <br /> Series A
                 Financing to Meet High Demand
               </p>
-              <p className="font-poppins font-[400] text-[20px] leading-[36px] text-[#696984] ">
+              <p className="font-poppins font-[400] text-[20px] leading-[36px]     text-[#696984] ">
                 Class Technologies Inc., the company that <br /> created
                 Class,...
               </p>
             </div>
           </div>
-          <div className="flex items-center max-xl:flex-wrap gap-[25px]     ">
+          <div className="flex items-center max-xl:flex-wrap gap-[25px]   max-sm:justify-center max-sm:pl-[12%]   ">
             <img src={news} alt="" />
             <div className="  ">
               <p className="font-poppins font-[500] text-[22px] leading-[39.6px] text-[#252641] ">
@@ -67,7 +67,7 @@ const FifthBody = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center max-xl:flex-wrap gap-[25px]     ">
+          <div className="flex items-center max-xl:flex-wrap gap-[25px]  max-sm:justify-center  max-sm:pl-[12%]    ">
             <img src={catnews} alt="" />
             <div className="  ">
               <p className="font-poppins font-[500] text-[22px] leading-[39.6px] text-[#252641] ">

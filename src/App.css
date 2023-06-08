@@ -3,19 +3,39 @@
 .App {
   text-align: center;
 }
-.ladyinblack{
-  background-image: url("../src/images/coursedetails/ladyinblack.png");
-} 
-.poster{
-  background-image: url("../src/images/coursedetails/background.png");
+.uiimg {
+  background-image: url("../src/images/uxui.png");
 }
+.reactimg {
+  background-image: url("../src/images/react.png");
+}
+.phpimg {
+  background-image: url("../src/images/php.png");
+}
+.javaimg {
+  background-image: url("../src/images/javascript.png");
+}
+.ladyinblack {
+  background-image: url("../src/images/coursedetails/ladyinblack.png");
+}
+/* .poster {
+  background-image: url("../src/images/coursedetails/background.png");
+} */
 button.slick-arrow.slick-prev {
   display: none !important ;
+}
+.literaturebg {
+  background-image: url("../src/images/literature/backgroundimg.png");
 }
 button.slick-arrow.slick-next {
   display: none !important ;
 }
-
+.bgpotrait {
+  background-image: url(./images/meeting/portraitteacher.png);
+}
+.searchbg {
+  background-image: url(./images/search/bg.png);
+}
 div[data-index="7"] {
   width: 684px !;
   height: 485px;
@@ -24,6 +44,16 @@ div[data-index="7"] {
   width: 684px;
   height: 485px;
 } */
+
+.checkoutzoom {
+  background-image: url(./images/checkout/zoom.png);
+}
+.checkoutkid {
+  background-image: url(./images/checkout/kid.png);
+}
+.checkoutcat {
+  background-image: url(./images/checkout/cat.png);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

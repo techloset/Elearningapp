@@ -2,7 +2,7 @@ import fotlog from "../../src/images/totc.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#252641] w-[1920px] flex flex-col gap-[95px]  ">
+    <div className="bg-[#252641] w-[full] flex flex-col gap-[95px]  ">
       <div className="flex justify-center gap-[77px] pt-[74px] ">
         <div>
           <img src={fotlog} alt="" />{" "}
@@ -21,10 +21,10 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex justify-center gap-[20px]   ">
-          <div className="w-[400px] h-[60px] border-[1px] border-[#83839A] rounded-[80px]">
+        <div className="flex max-sm:flex-wrap justify-center gap-[20px]   ">
+          <div className="w-[400px] max-sm:w-[300px] h-[60px] border-[1px] border-[#83839A] rounded-[80px]">
             <input
-              className="font-poppins font-[400] text-[20px] leading-[30px] bg-[#252641] pt-[15px] pl-[30px] "
+              className="font-poppins font-[400] text-[20px] leading-[30px] text-white bg-[#252641] pt-[15px] pl-[30px] focus:outline-none "
               type="email"
               placeholder="Your Email"
             />
@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <div className="flex justify-center gap-[20px]  ">
+        <div className="flex max-sm:flex-wrap justify-center gap-[20px]  ">
           <p className="font-poppins font-[400] text-[22px] leading-[33px] text-[#B2B3CF]   ">
             Careers
           </p>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="">
-        <p className="font-poppins font-[400] text-[22px] leading-[33px] text-[#B2B3CF] text-center ">
+        <p className="font-poppins font-[400] text-[22px] leading-[33px] text-[#B2B3CF] text-center max-sm:mb-[5%] ">
           © 2021 Class Technologies Inc.
         </p>
       </div>
